@@ -9,8 +9,8 @@
 # добавить задачу, показать задачи, выйти.
 # Обрабатывайте ошибки (например, если файл не доступен).
 # *удалить таску
-from src.task_manager import TaskManager
-from src.ui import UI
+from task_manager import TaskManager
+from ui import UI
 
 if __name__ == '__main__':
     t = TaskManager()
