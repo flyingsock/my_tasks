@@ -6,3 +6,6 @@ def test_add_task():
     t = TaskManager()
     t.add_task('hello')
     assert t.get_tasks == ['hello']
+
+def test_delete_task():
+    pass
